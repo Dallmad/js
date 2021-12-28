@@ -1,0 +1,24 @@
+function switchItUp(number){
+  let arr=["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"];
+if (number==0) {
+  return arr[0];
+}else if (number==1) {
+  return arr[1];
+}else if (number==2) {
+  return arr[2];
+}else if (number==3) {
+  return arr[3];
+}else if (number==4) {
+  return arr[4];
+}else if (number==5) {
+  return arr[5];
+}else if (number==6) {
+  return arr[6];
+}else if (number==7) {
+  return arr[7];
+}else if (number==8) {
+ return arr[8];
+}else if (number==9) {
+  return arr[9];
+};
+}
