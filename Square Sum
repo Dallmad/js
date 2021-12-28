@@ -1,0 +1,7 @@
+function squareSum(numbers){
+  let summ=0;
+for(var i=0; i<numbers.length; i++) {
+  summ+=numbers[i]*numbers[i];
+}
+  return summ;
+}
