@@ -1,0 +1,13 @@
+function peopleWithAgeDrink(old) {
+ let arr=["drink toddy","drink coke","drink beer","drink whisky"];
+  if (old<14) {
+    return arr[0];
+  } else if (old<18) {
+    return arr[1];
+  } else if (old<21) {
+    return arr[2];
+  } else {
+    return arr[3];
+  }
+  return '';
+};
