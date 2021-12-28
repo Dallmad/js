@@ -1,0 +1,4 @@
+function cockroachSpeed(s) {
+let a=Math.floor(s*100000/3600);
+  return a;
+}
