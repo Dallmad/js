@@ -1,0 +1,4 @@
+function nthEven(n){
+let nEven = (n-1)*2;
+  return nEven;
+}
