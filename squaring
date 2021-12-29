@@ -1,0 +1,4 @@
+function square(x) {
+  let sq = Math.pow(x,2);
+  return sq;
+  }
