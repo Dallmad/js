@@ -1,0 +1,10 @@
+const areaOrPerimeter = function(l , w) {
+ let answer=0;
+  if (l==w) {
+   answer = Math.pow(l,2);
+    return answer;
+ } else {
+   answer = 2*(l+w);
+   return answer;
+ }
+};
