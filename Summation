@@ -1,0 +1,4 @@
+var summation = function (num) {
+  let sumNum = num*(num+1)/2;
+return sumNum;
+}
