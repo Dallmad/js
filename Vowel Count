@@ -1,0 +1,4 @@
+function getCount(str) {
+  var vowelsCount = str.length -  str.replace(/[aeiouAEIOU]/g, "").length;
+  return vowelsCount;
+}
