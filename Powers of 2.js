@@ -1,7 +1,7 @@
 function powersOfTwo(n){
-    var result = [];
-    for (var i = 0; i <= n; i++) {
-        result.push(Math.pow(2, i));
+    let arr=[]
+    for (let i=0; i<=n;i++) {
+        arr.push(2**i)
     }
-    return result;
+    return arr
 }
