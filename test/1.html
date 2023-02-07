@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlexTest</title>
+    <style>
+        body {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #444444;
+            height: 100vh;
+            margin: 0;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .container {
+            display: flex;
+            height: 2em;
+            text-align: center;
+        }
+
+        header, footer {
+            width: 5vw;
+            background-color: grey;
+            padding: 5px;
+        }
+
+        .firstSection {
+            width: 30vw;
+            background-color: black;
+            padding: 5px;
+        }
+
+        .secondSection {
+            width: 60vw;
+            background-color: blue;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>start</header>
+    <section class="firstSection">middle flex 1</section>
+    <section class="secondSection">middle flex 2</section>
+    <footer>end</footer>
+</div>
+</body>
+</html>
